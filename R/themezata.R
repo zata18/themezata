@@ -66,13 +66,13 @@ theme_zata <- function(base_size = 9, base_family = '',
   }
 
   if (x_grid) {
-    x_grid <- element_line(linewidth = rel(.5), color = 'gray90')
+    x_grid <- element_line(linewidth = rel(.5), linetype = 'dashed', color = 'gray90')
   } else {
     x_grid <- element_blank()
   }
 
   if (y_grid) {
-    y_grid <- element_line(linewidth = rel(.5), color = 'gray90')
+    y_grid <- element_line(linewidth = rel(.5), linetype = 'dashed', color = 'gray90')
   } else {
     y_grid <- element_blank()
   }
@@ -211,7 +211,6 @@ theme_zata <- function(base_size = 9, base_family = '',
 
     panel.background   = element_blank(),
     panel.border       = panel_border,
-    panel.grid         = element_blank(),
     panel.grid.major.x = x_grid,
     panel.grid.minor.x = NULL,
     panel.grid.major.y = y_grid,
