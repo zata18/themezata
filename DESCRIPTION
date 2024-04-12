@@ -1,9 +1,9 @@
 Package: themezata
 Type: Package
-Title: Custom Theme for ggplot2
+Title: Personal Custom Theme for ggplot2
 Version: 0.1.0
 Authors@R: person("MAZ Ilmam", email = "inizata@gmail.com", role = c("aut", "cre"))
-Description: Provides a custom theme for ggplot2.
+Description: Personal custom theme for ggplot2.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

@@ -24,6 +24,7 @@ library(ggplot2)
 #' @param cap_jus
 #' @param leg_loc
 #' @param x_text_angle
+#' @param leg_jus
 #'
 #' @return
 #' @export
@@ -37,6 +38,7 @@ theme_zata <- function(base_size = 9, base_family = '',
                        x_grid    = TRUE,
                        y_grid    = TRUE,
                        leg_pos   = 'right',
+                       leg_jus   = 'center',
                        x_title   = TRUE,
                        y_title   = TRUE,
                        strip_bg  = 'gray90',
@@ -75,23 +77,6 @@ theme_zata <- function(base_size = 9, base_family = '',
     y_grid <- element_line(linewidth = rel(.5), linetype = 'dashed', color = 'gray90')
   } else {
     y_grid <- element_blank()
-  }
-
-  if (leg_pos == 'top') {
-    leg_pos <- 'top'
-    leg_jus <- 'left'
-  } else if (leg_pos == 'bottom') {
-    leg_pos <- 'bottom'
-    leg_jus <- 'right'
-  } else if (leg_pos == 'right') {
-    leg_pos <- 'right'
-    leg_jus <- 'center'
-  } else if (leg_pos == 'left') {
-    leg_pos <- 'left'
-    leg_jus <- 'center'
-  } else {
-    leg_pos <- 'none'
-    leg_jus <- 'center'
   }
 
   if (tit_jus == 'left') {
