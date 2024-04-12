@@ -9,7 +9,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 ```
 Install themezata from GitHub
 ```R
-devtools::install_github("username/themezata")
+devtools::install_github("zata18/themezata")
 ```
 Example usage of themezata
 ```R
