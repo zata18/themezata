@@ -57,6 +57,7 @@ theme_zata <- function(base_size = 9, base_family = '',
   rel_tiny  = txt_scale * (11/14)
   rel_small = txt_scale * (12/14)
   rel_large = txt_scale * (14/14)
+  unit_val  = base_size / 18
 
   half_line  <- base_size / 2
   small_size <- rel_small * base_size
@@ -179,7 +180,7 @@ theme_zata <- function(base_size = 9, base_family = '',
     legend.spacing.y      = NULL,
     legend.margin         = margin(0, 0, 0, 0),
     legend.key            = NULL,
-    legend.key.size       = unit(0.89 * base_size, 'pt'),
+    legend.key.size       = unit(unit_val, 'lines'),
     legend.key.height     = NULL,
     legend.key.width      = NULL,
     legend.key.spacing    = unit(half_line, 'pt'),
