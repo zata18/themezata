@@ -1,4 +1,4 @@
-Personal custom theme for myeda project.
+Personal custom theme for **myeda** project.
 But you can install it.
 
 Install devtools if not already installed
