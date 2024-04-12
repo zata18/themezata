@@ -11,15 +11,6 @@ Install themezata from GitHub
 ```R
 devtools::install_github("zata18/themezata")
 ```
-Example usage of themezata
-```R
-library(ggplot2)
-library(theme_zata)
-
-ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point() +
-  theme_zata()
-```
 Some arguments
 ```R
 \arguments{
