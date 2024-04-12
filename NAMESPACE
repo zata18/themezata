@@ -1,6 +1,2 @@
 export(theme_zata)
-export(scale_fill_zata)
-export(scale_color_zata)
-export(scalecolzt)
-export(scalefilzt)
 import(ggplot2)
