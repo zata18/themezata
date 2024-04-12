@@ -1,5 +1,5 @@
-Personal custom theme for **myeda** project.
-But you can install it.
+Personal custom theme for [**myeda**](https://github.com/zata18/myeda) project.
+But you can try it (it is provided "as is", without warranty of any kind).
 
 Install devtools if not already installed
 ```R
